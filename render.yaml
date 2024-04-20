@@ -7,4 +7,15 @@ services:
     url: docker.io/library/emqx:5.6.0
   plan: free
   region: oregon
+  ports:
+    - port: 1883
+      protocol: TCP
+    - port: 8883
+      protocol: TCP
+    - port: 8083
+      protocol: TCP
+    - port: 8084
+      protocol: TCP
+    - port: 18083
+      protocol: TCP
 version: "1"
