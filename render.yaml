@@ -1,0 +1,10 @@
+# Exported from Render on 2024-04-20T15:26:51Z
+services:
+- type: web
+  name: emqx:5.6.0
+  runtime: image
+  image:
+    url: docker.io/library/emqx:5.6.0
+  plan: free
+  region: oregon
+version: "1"
